@@ -180,7 +180,7 @@ export async function getAdminInvoiceRequestTemplate(invoiceMessage: InvoiceMess
 								</div>
 								`: ``}
 
-							${invoiceMessage.couponCode ? /*html*/`
+							${invoiceMessage.deliveryMethod === "delivery" ? /*html*/`
 								<div style="display: table; width: 100%; margin-bottom: 8px;">
 									<div style="display: table-cell;">
 										<p style="color: #666666; font-size: 14px; margin: 0;">
