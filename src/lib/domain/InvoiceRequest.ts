@@ -1,5 +1,5 @@
 import { GOOGLE_ADMIN_EMAIL, GOOGLE_INTERMEDIARY_EMAIL } from "$env/static/private"
-import { getAdminInvoiceRequestTemplate, getCustomerInvoiceRequestTemplate } from "$lib/templates/invoiceRequestTempate"
+import { getAdminInvoiceRequestTemplate, getCustomerInvoiceRequestTemplate } from "$lib/templates/invoiceRequestTemplate"
 import { BadRequestError } from "$lib/utils/Errors"
 import type { Options } from "nodemailer/lib/mailer"
 
