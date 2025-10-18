@@ -132,7 +132,7 @@
 		size="full"
 		autocomplete="country-name"
 	>
-		<option value="BE">Belgie</option>
+		<option value="BE">België</option>
 		<option value="NL">Nederland</option>
 	</Select>
 	{#if submitLabel}
